@@ -1,0 +1,158 @@
+/* Body */
+body {
+  background-color: #f4f4f4;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url(images/anime-school-background-c7drhqqqtjnw7ote.jpg);
+  background-repeat: repeat;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #d3e7f5;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  background-image: url(images/solid-color-image.png);
+  background-repeat: repeat;
+}
+
+.navbar-brand {
+  color: #222;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #222;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #039be5;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Footer */
+footer{
+  background-color: #e3f2fd;
+  color: #222;
+  padding: 20px;
+  margin-top: 50px;
+  bottom: 0;
+  position: fixed;
+}
+
+footer p {
+  margin-bottom: 0;
+  position: fixed;
+}
+
+/* Forms */
+form {
+  background-image: url(images/solid-color-image.png);
+  background-repeat: repeat;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form select {
+  height: 40px;
+}
+
+form input[type="submit"] {
+  background-color: #039be5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0277bd;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #777;
+  margin-bottom: 0;
+}
+
+/* Buttons */
+.btn {
+  background-color: #039be5;
+  color: #fff;
+ 
+}
+hr{
+  color: #222;
+}
